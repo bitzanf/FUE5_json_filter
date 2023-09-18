@@ -1,4 +1,3 @@
-//#define _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS 
 #define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
 
 #include <iostream>
@@ -85,7 +84,7 @@ int main(int argc, const char** argv) {
 		"Filters FUE5 (Factorio in Unreal Engine 5) exported JSON and removes unnecessary entities.\n"
 		"Specify either the FUE5 project base directory, and the program will automatically find the files, "
 		"or specify the input and output files.",
-		"FUE5 JSON filter"
+		"FUE5_json_filter"
 	);
 
 #ifdef ALLOW_WINDOWS_OPTIONS
